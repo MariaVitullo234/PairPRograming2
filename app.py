@@ -16,6 +16,7 @@ api_url = "new-elchase-api-drhed6h2ajawgwcv.eastus-01.azurewebsites.net"  # base
 # main index page route
 @app.route("/")
 def index():
+   
     return render_template("index.html")
 
 

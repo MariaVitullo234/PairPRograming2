@@ -46,13 +46,13 @@ def predict():
 
         # Create dictionary of form data
         salary_predict_variables = {
-            "age": age,
-            "gender": gender,
-            "country": country,
-            "highest_deg": highest_deg,
-            "coding_exp": coding_exp,
-            "title": title,
-            "company_size": company_size,
+            "age": int(age),
+            "gender": int(gender),
+            "country": int(country),
+            "highest_deg": int(highest_deg),
+            "coding_exp": int(coding_exp),
+            "title": int(title),
+            "company_size": int(company_size),
         }
 
         # Send data to API as JSON
